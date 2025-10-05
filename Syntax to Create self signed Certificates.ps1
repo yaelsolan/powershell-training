@@ -1,0 +1,1 @@
+New-SelfsignedCertificateEx -Subject "CN=Test Script Signing" -EKU "Code Signing" -KeySpec "Signature" -KeyUsage "DigitalSignature" -FriendlyName "Test Script Signing"
